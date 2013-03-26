@@ -1,0 +1,8 @@
+#! /bin/bash
+
+guest_file=/home/wh/shell/guest
+
+for person in $(cat $guest_file)
+do
+	echo $person
+done
